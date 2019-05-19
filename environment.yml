@@ -1,0 +1,11 @@
+name: maskrcnn
+dependencies:
+- cython
+- numpy 
+- scipy
+- Pillow
+- matplotlib
+- scikit-image
+- tensorflow-gpu
+- keras
+- opencv
