@@ -2254,6 +2254,7 @@ class MaskRCNN():
         key = self.config.NAME.lower()
         dir_names = filter(lambda f: f.startswith(key), dir_names)
         dir_names = sorted(dir_names)
+        print(dir_names)
         if not dir_names:
             import errno
             raise FileNotFoundError(
