@@ -1,0 +1,1 @@
+python samples/coco/coco.py evaluate --dataset=../../data/cocostuff/dataset --model=last
